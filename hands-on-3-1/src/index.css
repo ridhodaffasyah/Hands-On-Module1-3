@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.input {
+  width: 80%;
+  padding: 10px;
+}
+
+.search-input {
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 10px;
+  width: 40%;
+  color: black;
+}
+
+.search-input::placeholder {
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 40%;
+  color: grey;
+  opacity: 0.6;
+}
+
+.search-input:focus {
+  border: none;
+  outline: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 10px;
+  width: 40%;
+  color: black;
+}
+
+.fa-solid {
+  color: black;
+}
+
+.search-button {
+  background-color: rgb(105, 206, 240);
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 10px 16px 10px 15px;
+  color: white;
+  font-size: 12.2px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: cornflowerblue;
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 10px 16px 10px 15px;
+  color: white;
+  font-size: 12.2px;
+  cursor: pointer;
+}
+
+.img {
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.title > span {
+  font-size: 40px;
+  margin-left: 5px;
+  color: rgb(105, 206, 240);
+}
+
+.image {
+  font-size: 14px;
+}
+
+

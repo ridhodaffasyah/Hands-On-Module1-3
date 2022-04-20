@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaSearch } from "react-icons/fa";
 
 function SearchComp({handleInput, fetchData, query}) {
 
@@ -19,7 +18,6 @@ function SearchComp({handleInput, fetchData, query}) {
                 className="search-button"
                 onClick={fetchData}
             >
-                <FaSearch />
             </button>
         </div>
     )
